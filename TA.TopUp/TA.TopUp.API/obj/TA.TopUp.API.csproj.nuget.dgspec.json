@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.API\\TA.TopUp.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.ApplicationService\\TA.TopUp.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.ApplicationService\\TA.TopUp.ApplicationService.csproj",
+        "projectName": "TA.TopUp.ApplicationService",
+        "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.ApplicationService\\TA.TopUp.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
+        "outputPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\TA.TopUp.Core.csproj": {
+                "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\TA.TopUp.Core.csproj"
+              },
+              "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\TA.TopUp.Shared.csproj": {
+                "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\TA.TopUp.Shared.csproj"
+              },
+              "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\TA.TopUp.Infrastructure.csproj": {
+                "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\TA.TopUp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\TA.TopUp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\TA.TopUp.Core.csproj",
+        "projectName": "TA.TopUp.Core",
+        "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\TA.TopUp.Core.csproj",
+        "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
+        "outputPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\TA.TopUp.Shared.csproj": {
+                "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\TA.TopUp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\TA.TopUp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\TA.TopUp.Shared.csproj",
+        "projectName": "TA.TopUp.Shared",
+        "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\TA.TopUp.Shared.csproj",
+        "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
+        "outputPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.API\\TA.TopUp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.API\\TA.TopUp.API.csproj",
+        "projectName": "TA.TopUp.API",
+        "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.API\\TA.TopUp.API.csproj",
+        "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
+        "outputPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.ApplicationService\\TA.TopUp.ApplicationService.csproj": {
+                "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.ApplicationService\\TA.TopUp.ApplicationService.csproj"
+              },
+              "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\TA.TopUp.Infrastructure.csproj": {
+                "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\TA.TopUp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.ThrowContext": {
+              "target": "Package",
+              "version": "[0.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\TA.TopUp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\TA.TopUp.Infrastructure.csproj",
+        "projectName": "TA.TopUp.Infrastructure",
+        "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\TA.TopUp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
+        "outputPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\TA.TopUp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\TA.TopUp.Core.csproj": {
+                "projectPath": "D:\\Lab\\.NETCore\\TechnicalAssessment\\TA.TopUp\\src\\TA.TopUp.Core\\TA.TopUp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
