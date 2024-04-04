@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TA.TopUp.API", "src\TA.TopUp.API\TA.TopUp.API.csproj", "{79AC7D21-7EF6-445A-AA48-3EED4F3A42F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C3D1ED0-9AAB-40D3-873F-1F611CFB0BF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TA.TopUp.Core", "src\TA.TopUp.Core\TA.TopUp.Core.csproj", "{8BB3BF4D-3619-49BA-B92D-D45243BAA63C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TA.TopUp.ApplicationService", "src\TA.TopUp.ApplicationService\TA.TopUp.ApplicationService.csproj", "{5A72EF78-AF1B-4F1B-8C72-711FD797448D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TA.TopUp.Infrastructure", "src\TA.TopUp.Infrastructure\TA.TopUp.Infrastructure.csproj", "{98F672D3-220F-4CF1-88AD-94083478E001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TA.TopUp.Shared", "src\TA.TopUp.Shared\TA.TopUp.Shared.csproj", "{86305FE9-92DC-4137-B24F-5317282FE213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TA.Wallet.API", "src\TA.Wallet.API\TA.Wallet.API.csproj", "{E5643C4E-D62F-49F7-942F-AB4EDE4A0B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79AC7D21-7EF6-445A-AA48-3EED4F3A42F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AC7D21-7EF6-445A-AA48-3EED4F3A42F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AC7D21-7EF6-445A-AA48-3EED4F3A42F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AC7D21-7EF6-445A-AA48-3EED4F3A42F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB3BF4D-3619-49BA-B92D-D45243BAA63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB3BF4D-3619-49BA-B92D-D45243BAA63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB3BF4D-3619-49BA-B92D-D45243BAA63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB3BF4D-3619-49BA-B92D-D45243BAA63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A72EF78-AF1B-4F1B-8C72-711FD797448D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A72EF78-AF1B-4F1B-8C72-711FD797448D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A72EF78-AF1B-4F1B-8C72-711FD797448D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A72EF78-AF1B-4F1B-8C72-711FD797448D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F672D3-220F-4CF1-88AD-94083478E001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F672D3-220F-4CF1-88AD-94083478E001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F672D3-220F-4CF1-88AD-94083478E001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F672D3-220F-4CF1-88AD-94083478E001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86305FE9-92DC-4137-B24F-5317282FE213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86305FE9-92DC-4137-B24F-5317282FE213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86305FE9-92DC-4137-B24F-5317282FE213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86305FE9-92DC-4137-B24F-5317282FE213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5643C4E-D62F-49F7-942F-AB4EDE4A0B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5643C4E-D62F-49F7-942F-AB4EDE4A0B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5643C4E-D62F-49F7-942F-AB4EDE4A0B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5643C4E-D62F-49F7-942F-AB4EDE4A0B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79AC7D21-7EF6-445A-AA48-3EED4F3A42F9} = {8C3D1ED0-9AAB-40D3-873F-1F611CFB0BF7}
+		{8BB3BF4D-3619-49BA-B92D-D45243BAA63C} = {8C3D1ED0-9AAB-40D3-873F-1F611CFB0BF7}
+		{5A72EF78-AF1B-4F1B-8C72-711FD797448D} = {8C3D1ED0-9AAB-40D3-873F-1F611CFB0BF7}
+		{98F672D3-220F-4CF1-88AD-94083478E001} = {8C3D1ED0-9AAB-40D3-873F-1F611CFB0BF7}
+		{86305FE9-92DC-4137-B24F-5317282FE213} = {8C3D1ED0-9AAB-40D3-873F-1F611CFB0BF7}
+		{E5643C4E-D62F-49F7-942F-AB4EDE4A0B5F} = {8C3D1ED0-9AAB-40D3-873F-1F611CFB0BF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D0FA614-7248-4822-AD1A-135695D4AE10}
+	EndGlobalSection
+EndGlobal
